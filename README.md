@@ -13,7 +13,7 @@ python3 segment_clips.py [--directory, -d directory_name] [--clip_length, -c len
                          [--framerate, -f rate] [--input_format, -I format]
                          [--output_format, -O format] [--prefix, -p prefix]
 ```
-- ```--directory``` allows you to specify the directory that script should look for audio in. By default it will attempt the current directory.
+- ```--directory``` allows you to specify the directory that the script should look for audio in. By default it will attempt the current directory.
 - ```--clip_length``` allows you to specify the length of the clips you want to be output. By default the system outputs clips of 10 seconds.
 - ```--framerate``` allows you to specify the framerate the audio should be input as. The default is 441000Hz.
 - ```--input_format``` allows you to specify the format the audio should be input as. The default is mp3.
