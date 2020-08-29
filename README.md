@@ -9,7 +9,9 @@ Note: If using MacOS, the current system will fail unless ```.DS_Store``` files 
 
 ## Using the System
 ```
-python3 segment_clips.py [--directory, -d directory_name] [--clip_length, -c length] [--framerate, -f rate] [--input_format, -I format] [--output_format, -O format] [--prefix, -p prefix]
+python3 segment_clips.py [--directory, -d directory_name] [--clip_length, -c length]
+                         [--framerate, -f rate] [--input_format, -I format]
+                         [--output_format, -O format] [--prefix, -p prefix]
 ```
 - ```--directory``` allows you to specify the directory that script should look for audio in. By default it will attempt the current directory.
 - ```--clip_length``` allows you to specify the length of the clips you want to be output. By default the system outputs clips of 10 seconds.
