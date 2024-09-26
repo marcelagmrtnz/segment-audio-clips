@@ -1,4 +1,4 @@
-# segment-audio-clips
+# [segment-audio-clips](https://github.com/marcelagmrtnz/segment-audio-clips)
 A simple command-line script to segment audio clips with a number of options, utilizing the [pydub](https://github.com/jiaaro/pydub) package. The system will output the clips in the current directory.<br>
 Note: If using MacOS, the current system will fail unless ```.DS_Store``` files are removed from whatever directory the system is being run on. While it hasn't been tested with other filetypes, this is likely true for them as well. Best practice would be to make sure the specified directory contains ONLY audio clips of the specified file format.
 
